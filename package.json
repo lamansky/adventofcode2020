@@ -1,0 +1,26 @@
+{
+  "name": "@lamansky/adventofcode2020",
+  "private": true,
+  "homepage": "https://github.com/lamansky/adventofcode2020",
+  "repository": "lamansky/adventofcode2020",
+  "main": "index.js",
+  "bin": "./index.js",
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "2": "^3.0.0",
+    "array-intersection": "^0.1.2",
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "neach": "^2.0.0",
+    "qfn": "^1.0.1",
+    "remove-suffix": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "lamansky"
+  }
+}
